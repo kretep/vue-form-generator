@@ -85,9 +85,7 @@ export default {
 			this.updateModelValue(newValue, oldValue);
 		},
 		formatNumberToModel(newValue, oldValue) {
-			if(!isNumber(newValue)) {
-				newValue = NaN;
-			}
+			newValue = parseFloat(newValue);
 			this.updateModelValue(newValue, oldValue);
 		},
 		onInput($event) {
