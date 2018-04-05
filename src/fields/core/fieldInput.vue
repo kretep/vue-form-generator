@@ -50,7 +50,7 @@ const DATETIME_FORMATS = {
 	"datetime-local": "YYYY-MM-DDTHH:mm:ss",
 };
 
-const DEBOUNCE_FORMAT_MS = 1000;
+const DEBOUNCE_FORMAT_MS = 3000;
 
 export default {
 	mixins: [abstractField],
